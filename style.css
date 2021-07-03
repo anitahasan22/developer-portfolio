@@ -9,7 +9,7 @@ h1{
 .orange-text{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
     padding-top: 20px;
@@ -44,4 +44,37 @@ p{
     padding-bottom: 10px;
     padding-right: 150px;
     text-align: justify;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5% ;
+    box-shadow:10px 10px 40px grey;
+    border-radius: 5%;
+}
+h2{
+    font-size: 30px;
+}
+.Experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.padding-walah1{
+    padding-left: 100px;
+}
+#webdev{
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#fullstack{
+    border-image:linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer p{
+    text-align: center;
+    margin-left: 110px;
 }
